@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5211314253743135774}
   - component: {fileID: 8049825867655473364}
   - component: {fileID: 6187443773536498773}
+  - component: {fileID: 3106569515047081313}
   m_Layer: 0
   m_Name: SwingingBaton_prefab
   m_TagString: Untagged
@@ -95,5 +96,25 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6000003, y: 9.714985, z: 0.60000014}
-  m_Center: {x: -0.0000005364418, y: -4.5919075, z: -0.00000043213367}
+  m_Size: {x: 0.6000003, y: 9.714985, z: 1.081703}
+  m_Center: {x: -0.0000007010048, y: -4.5919075, z: 0.0021715462}
+--- !u!95 &3106569515047081313
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8409985813839169793}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 28d13c6dd7f5e104c89cfc7fcb3541ee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

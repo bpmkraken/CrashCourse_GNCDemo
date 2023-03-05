@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/R0_MainMenu.unity
+    path: Assets/Crash Course/Scenes/R0_MainMenu.unity
     guid: 7787dfa73d21b1141b6c834c95686a25
   - enabled: 1
-    path: Assets/Scenes/R1_CrashCourse.unity
+    path: Assets/Crash Course/Scenes/R1_CrashCourse.unity
     guid: 2b3fcd563b395f54994f1b8d107693ec
   m_configObjects: {}
