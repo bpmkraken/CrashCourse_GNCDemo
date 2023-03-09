@@ -2281,6 +2281,7 @@ GameObject:
   - component: {fileID: 4848660093169859994}
   - component: {fileID: 4848660093169859992}
   - component: {fileID: 4848660093169859995}
+  - component: {fileID: 398415682478022397}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2594,6 +2595,22 @@ MonoBehaviour:
             rid: 3273849286582599705
     - rid: 3273849286582599705
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+--- !u!114 &398415682478022397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4848660093169859975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03eda255f91c443392af0b05499be42c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Item: {fileID: 11400000, guid: cae6fe51374274f33851a9fff379c32f, type: 2}
+  m_Sockets:
+    m_Keys: []
+    m_Values: []
 --- !u!1 &4848660093172190607
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,9 +16,11 @@ MonoBehaviour:
   m_Entry:
     m_EntryClip: {fileID: 7400000, guid: dd4712c6852fd479b8c10798a3e85bd6, type: 2}
     m_EntryMask: {fileID: 0}
+    m_RootMotion: 0
   m_Exit:
     m_ExitClip: {fileID: 7400000, guid: 7beaf23ccefdd44b0b3c2b0715ce62c6, type: 2}
     m_ExitMask: {fileID: 0}
+    m_RootMotion: 0
   m_OnChange:
     m_Instructions: []
   m_Controller: {fileID: 810591422000391944}
