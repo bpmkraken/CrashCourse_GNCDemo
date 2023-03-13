@@ -16,7 +16,7 @@ MonoBehaviour:
   m_CollisionDetection: 0
   m_Volumes:
     rid: 5380421872267296782
-  <EditorModelPath>k__BackingField: Assets/Crash Course/Prefabs/Bean_rigged.prefab
+  <EditorModelPath>k__BackingField: Assets/Crash Course/Models/Bean_rigged.fbx
   references:
     version: 2
     RefIds:
@@ -38,7 +38,7 @@ MonoBehaviour:
     - rid: 5380421872267296783
       type: {class: VolumeBox, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data:
-        m_IsExpanded: 0
+        m_IsExpanded: 1
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Bone:
@@ -51,8 +51,8 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296784
-        m_Center: {x: 0, y: -0.0011, z: 0}
-        m_Size: {x: 0.0065, y: 0.0065, z: 0.0065}
+        m_Center: {x: 0, y: 0.0004, z: 0}
+        m_Size: {x: 0.0068, y: 0.0069, z: 0.0065}
     - rid: 5380421872267296784
       type: {class: JointNone, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
     - rid: 5380421872267296785
@@ -71,7 +71,7 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296786
-        m_Center: {x: 0, y: 0, z: 0}
+        m_Center: {x: 0, y: 0.0005, z: 0.0002}
         m_Height: 0.001
         m_Radius: 0.001
         m_Direction: 0
@@ -93,7 +93,7 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296790
-        m_Center: {x: 0, y: 0, z: 0}
+        m_Center: {x: 0, y: 0, z: 0.0004}
         m_Height: 0.001
         m_Radius: 0.001
         m_Direction: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296792
-        m_Center: {x: 0, y: 0.0002, z: 0}
+        m_Center: {x: 0, y: 0, z: 0.0002}
         m_Height: 0.001
         m_Radius: 0.001
         m_Direction: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296794
-        m_Center: {x: 0, y: 0, z: 0}
+        m_Center: {x: 0, y: 0.0005, z: 0.0002}
         m_Height: 0.001
         m_Radius: 0.001
         m_Direction: 0
@@ -159,7 +159,7 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296796
-        m_Center: {x: 0, y: 0, z: 0}
+        m_Center: {x: 0, y: 0, z: 0.0004}
         m_Height: 0.001
         m_Radius: 0.001
         m_Direction: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296798
-        m_Center: {x: 0, y: 0.0002, z: 0}
+        m_Center: {x: 0, y: 0, z: 0.0002}
         m_Height: 0.001
         m_Radius: 0.001
         m_Direction: 0
@@ -203,7 +203,7 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296800
-        m_Center: {x: 0, y: 0, z: 0}
+        m_Center: {x: 0, y: -0.0004, z: 0.0001}
         m_Height: 0.001
         m_Radius: 0.0008
         m_Direction: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296802
-        m_Center: {x: 0, y: 0.0011, z: -0.0003}
+        m_Center: {x: 0, y: 0.0008, z: 0}
         m_Height: 0.001
         m_Radius: 0.0008
         m_Direction: 0
@@ -247,7 +247,7 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296804
-        m_Center: {x: 0, y: 0.0011, z: -0.0003}
+        m_Center: {x: 0, y: 0.0008, z: 0}
         m_Height: 0.001
         m_Radius: 0.0008
         m_Direction: 0
@@ -269,7 +269,7 @@ MonoBehaviour:
         m_Weight: 1
         m_Joint:
           rid: 5380421872267296806
-        m_Center: {x: 0, y: 0, z: 0}
+        m_Center: {x: 0, y: -0.0004, z: 0.0001}
         m_Height: 0.001
         m_Radius: 0.0008
         m_Direction: 0
