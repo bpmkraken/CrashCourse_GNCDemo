@@ -37940,20 +37940,10 @@ MonoBehaviour:
     - rid: 5380421978666041452
     - rid: 5380421978666041471
   m_TriggerEvent:
-    rid: 5380421978666041451
+    rid: 5380421981042638891
   references:
     version: 2
     RefIds:
-    - rid: 5380421978666041451
-      type: {class: EventOnVariableGlobalNameChange, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_Variable: {fileID: 11400000, guid: 7a2cabc496bf8d645b177e6630cf5b99, type: 2}
-          m_When: 1
-          m_Name:
-            m_String: BeanColor
-            m_ID: -252958597
     - rid: 5380421978666041452
       type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -38009,6 +37999,8 @@ MonoBehaviour:
       type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_GameObject: {fileID: 9212614744400755648}
+    - rid: 5380421981042638891
+      type: {class: EventOnUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
 --- !u!114 &8124702110866034703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38026,20 +38018,10 @@ MonoBehaviour:
     - rid: 5380421978666041452
     - rid: 5380421978666041471
   m_TriggerEvent:
-    rid: 5380421978666041451
+    rid: 5380421981042638890
   references:
     version: 2
     RefIds:
-    - rid: 5380421978666041451
-      type: {class: EventOnVariableGlobalNameChange, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_Variable: {fileID: 11400000, guid: 7a2cabc496bf8d645b177e6630cf5b99, type: 2}
-          m_When: 1
-          m_Name:
-            m_String: BeanColor
-            m_ID: -252958597
     - rid: 5380421978666041452
       type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -38095,6 +38077,8 @@ MonoBehaviour:
       type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_GameObject: {fileID: 9212614744400755648}
+    - rid: 5380421981042638890
+      type: {class: EventOnUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
 --- !u!114 &8470832312119459560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38112,20 +38096,10 @@ MonoBehaviour:
     - rid: 5380421978666041452
     - rid: 5380421978666041471
   m_TriggerEvent:
-    rid: 5380421978666041451
+    rid: 5380421981042638889
   references:
     version: 2
     RefIds:
-    - rid: 5380421978666041451
-      type: {class: EventOnVariableGlobalNameChange, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_Variable: {fileID: 11400000, guid: 7a2cabc496bf8d645b177e6630cf5b99, type: 2}
-          m_When: 1
-          m_Name:
-            m_String: BeanColor
-            m_ID: -252958597
     - rid: 5380421978666041452
       type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -38181,6 +38155,8 @@ MonoBehaviour:
       type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_GameObject: {fileID: 9212614744400755648}
+    - rid: 5380421981042638889
+      type: {class: EventOnUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
 --- !u!114 &7092265961601822186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38198,20 +38174,10 @@ MonoBehaviour:
     - rid: 5380421978666041452
     - rid: 5380421978666041471
   m_TriggerEvent:
-    rid: 5380421978666041451
+    rid: 5380421981042638888
   references:
     version: 2
     RefIds:
-    - rid: 5380421978666041451
-      type: {class: EventOnVariableGlobalNameChange, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_Variable: {fileID: 11400000, guid: 7a2cabc496bf8d645b177e6630cf5b99, type: 2}
-          m_When: 1
-          m_Name:
-            m_String: BeanColor
-            m_ID: -252958597
     - rid: 5380421978666041452
       type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -38267,6 +38233,8 @@ MonoBehaviour:
       type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_GameObject: {fileID: 9212614744400755648}
+    - rid: 5380421981042638888
+      type: {class: EventOnUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
 --- !u!114 &2610160621908529906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38284,20 +38252,10 @@ MonoBehaviour:
     - rid: 5380421978666041452
     - rid: 5380421978666041471
   m_TriggerEvent:
-    rid: 5380421978666041451
+    rid: 5380421981042638887
   references:
     version: 2
     RefIds:
-    - rid: 5380421978666041451
-      type: {class: EventOnVariableGlobalNameChange, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_Variable: {fileID: 11400000, guid: 7a2cabc496bf8d645b177e6630cf5b99, type: 2}
-          m_When: 1
-          m_Name:
-            m_String: BeanColor
-            m_ID: -252958597
     - rid: 5380421978666041452
       type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -38353,6 +38311,8 @@ MonoBehaviour:
       type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_GameObject: {fileID: 9212614744400755648}
+    - rid: 5380421981042638887
+      type: {class: EventOnUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
 --- !u!114 &539962121873845100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38370,20 +38330,10 @@ MonoBehaviour:
     - rid: 5380421978666041452
     - rid: 5380421978666041471
   m_TriggerEvent:
-    rid: 5380421978666041451
+    rid: 5380421981042638886
   references:
     version: 2
     RefIds:
-    - rid: 5380421978666041451
-      type: {class: EventOnVariableGlobalNameChange, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_Variable: {fileID: 11400000, guid: 7a2cabc496bf8d645b177e6630cf5b99, type: 2}
-          m_When: 1
-          m_Name:
-            m_String: BeanColor
-            m_ID: -252958597
     - rid: 5380421978666041452
       type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -38439,6 +38389,8 @@ MonoBehaviour:
       type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_GameObject: {fileID: 9212614744400755648}
+    - rid: 5380421981042638886
+      type: {class: EventOnUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
 --- !u!114 &6500885966933352272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38457,20 +38409,10 @@ MonoBehaviour:
     - rid: 5380421978666041653
     - rid: 5380421978666041650
   m_TriggerEvent:
-    rid: 5380421978666041451
+    rid: 5380421981042638885
   references:
     version: 2
     RefIds:
-    - rid: 5380421978666041451
-      type: {class: EventOnVariableGlobalNameChange, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_Variable: {fileID: 11400000, guid: 7a2cabc496bf8d645b177e6630cf5b99, type: 2}
-          m_When: 1
-          m_Name:
-            m_String: HeadGear
-            m_ID: 1677478840
     - rid: 5380421978666041452
       type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -38562,6 +38504,8 @@ MonoBehaviour:
       data:
         m_GameObject: {fileID: 112491581694403332, guid: 3896a16193540904bb866b3001d4c912,
           type: 3}
+    - rid: 5380421981042638885
+      type: {class: EventOnUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
 --- !u!114 &2036041705700148619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38580,20 +38524,10 @@ MonoBehaviour:
     - rid: 5380421978666041653
     - rid: 5380421978666041650
   m_TriggerEvent:
-    rid: 5380421978666041451
+    rid: 5380421981042638884
   references:
     version: 2
     RefIds:
-    - rid: 5380421978666041451
-      type: {class: EventOnVariableGlobalNameChange, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_Variable: {fileID: 11400000, guid: 7a2cabc496bf8d645b177e6630cf5b99, type: 2}
-          m_When: 1
-          m_Name:
-            m_String: HeadGear
-            m_ID: 1677478840
     - rid: 5380421978666041452
       type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -38685,6 +38619,8 @@ MonoBehaviour:
       data:
         m_GameObject: {fileID: 1324403695830872247, guid: d2071c3e590d3de4eada1522268e28ee,
           type: 3}
+    - rid: 5380421981042638884
+      type: {class: EventOnUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
 --- !u!114 &8919891919892267594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38703,20 +38639,10 @@ MonoBehaviour:
     - rid: 5380421978666041653
     - rid: 5380421978666041660
   m_TriggerEvent:
-    rid: 5380421978666041451
+    rid: 5380421981042638883
   references:
     version: 2
     RefIds:
-    - rid: 5380421978666041451
-      type: {class: EventOnVariableGlobalNameChange, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_Variable: {fileID: 11400000, guid: 7a2cabc496bf8d645b177e6630cf5b99, type: 2}
-          m_When: 1
-          m_Name:
-            m_String: HeadGear
-            m_ID: 1677478840
     - rid: 5380421978666041452
       type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -38799,6 +38725,8 @@ MonoBehaviour:
       data:
         m_GameObject: {fileID: 112491581694403332, guid: 3896a16193540904bb866b3001d4c912,
           type: 3}
+    - rid: 5380421981042638883
+      type: {class: EventOnUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
 --- !u!1 &9216731822913365326
 GameObject:
   m_ObjectHideFlags: 0

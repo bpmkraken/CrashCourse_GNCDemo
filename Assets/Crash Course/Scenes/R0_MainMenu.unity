@@ -240,6 +240,116 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!1 &75754071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 75754073}
+  - component: {fileID: 75754072}
+  m_Layer: 0
+  m_Name: Audio Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &75754072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75754071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 5380421981042638944
+    - rid: 5380421981042638945
+    - rid: 5380421981042638946
+    - rid: 5380421981042638947
+    - rid: 5380421981042638948
+  m_TriggerEvent:
+    rid: 5380421981042638943
+  references:
+    version: 2
+    RefIds:
+    - rid: 5380421981042638943
+      type: {class: EventOnStart, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+    - rid: 5380421981042638944
+      type: {class: InstructionCommonAudioMusicPlay, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_AudioClip: {fileID: 8300000, guid: b15659dd694869c4489d1068e322163e, type: 3}
+        m_Config:
+          m_Volume: 1
+          m_TransitionIn: 2
+          m_UpdateMode: 0
+    - rid: 5380421981042638945
+      type: {class: InstructionCommonAudioMusicStop, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_AudioClip: {fileID: 8300000, guid: 7d5822a475d851b4fb4c734fa627d2b0, type: 3}
+        m_WaitToComplete: 0
+        transitionOut: 2
+    - rid: 5380421981042638946
+      type: {class: InstructionCommonAudioMusicStop, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_AudioClip: {fileID: 8300000, guid: e29d2b8f9f6177345bca0f6fabe1fcff, type: 3}
+        m_WaitToComplete: 0
+        transitionOut: 2
+    - rid: 5380421981042638947
+      type: {class: InstructionCommonAudioMusicStop, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_AudioClip: {fileID: 8300000, guid: dce36b324d4bedf41bffa95dd3a8e2e7, type: 3}
+        m_WaitToComplete: 0
+        transitionOut: 2
+    - rid: 5380421981042638948
+      type: {class: InstructionCommonAudioMusicStop, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_AudioClip: {fileID: 8300000, guid: 739315ac151063e4faff4ac544e9606f, type: 3}
+        m_WaitToComplete: 0
+        transitionOut: 2
+--- !u!4 &75754073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75754071}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &93666184
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 494d1afd48a88844eb23f61719aa4923, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cc0b1d7963e15b548b4c2e08169db2e2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -484,6 +594,11 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4848660093169859972, guid: 4a5be2f12dd4cba46b96bf369270fd41,
+        type: 3}
+      propertyPath: managedReferences[3273848851812319253].m_IsControllable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4848660093169859973, guid: 4a5be2f12dd4cba46b96bf369270fd41,
         type: 3}
       propertyPath: m_RootOrder
@@ -547,6 +662,11 @@ PrefabInstance:
     - target: {fileID: 4848660093169859994, guid: 4a5be2f12dd4cba46b96bf369270fd41,
         type: 3}
       propertyPath: m_Instructions.m_Instructions.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848660093169859995, guid: 4a5be2f12dd4cba46b96bf369270fd41,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
